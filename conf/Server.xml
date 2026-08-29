@@ -225,18 +225,14 @@ ports config:
 				<OriginHostName>${env:OME_HOST_IP:192.168.0.160}</OriginHostName>
 			</OriginMapStore>
 			-->
-			<OriginMapStore>
-				<!-- In order to use OriginMap, you must enable OVT Publisher in Origin and OVT
-				Provider in Edge. -->
+			<!-- <OriginMapStore>
+			 
 				<RedisServer>
 					<Host>${env:REDIS_HOST_ADDR:10.20.20.47:6379}</Host>
-					<!-- <Auth>!@#ovenmediaengine</Auth> -->
 				</RedisServer>
-
-				<!-- This is only needed for the origin server and used to register the ovt address
-				of the stream.  -->
+ 
 				<OriginHostName>13.234.126.4</OriginHostName>
-			</OriginMapStore>
+			</OriginMapStore> -->
 
 
 			<!-- Default CORS Settings -->
